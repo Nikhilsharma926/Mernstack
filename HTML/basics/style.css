@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(242, 245, 245); 
+}
+
+
+h1{
+   text-align: center;
+
+ 
+}
+ul {
+   list-style-type: none; /* removes bullets */
+   padding: 0;  /* optional: removes left padding */
+   margin: 0;   /* optional: removes default margin */
+ }
+
+ ul li {
+   margin: 10px 0; /* 10px space above & below each li */
+ }
