@@ -1,3 +1,18 @@
 h1 {
     color: rgb(12, 112, 199);
 }
+ul{
+    list-style-type: none;
+}
+div{
+    background-color: rgb(23, 23, 27);
+    width: 500px;
+    margin: auto;
+}
+
+ ul li{
+    color: rgb(24, 180, 146);
+  
+  
+
+}

@@ -1,0 +1,42 @@
+body{
+    
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background-color:#251407;
+    height: 99px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    
+    
+}
+.navbar a{
+    padding: 0 35px 0px;
+    color: #efeaea;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #1d459b;  
+    
+}
+.logo img{
+    height: 20px;
+    width: 30px;
+
+}
+img{
+    height: 100px;
+    width: 500px;
+    border-radius: none;
+    
+}
+
+
+
