@@ -51,7 +51,25 @@ let asdf = function(v1){ // v1 is parameter
 asdf("today") //  today is arguments
 
 
-//
+//closure -------------------------------------------------------------------
+
+let qwe = ()=> {
+    let aa= 12;
+    return ()=>{
+        console.log(aa);
+
+    }
+}
+
+let result = qwe();
+result();
+
+// ek function jo ek aur function return kre aur return krne walaa function hamesha use kre parent function kk variable ko.
+// that is know as closure.
+
+
+//Array 
+
 
 
 
