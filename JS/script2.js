@@ -68,9 +68,24 @@ result();
 // that is know as closure.
 
 
-//Array 
+//Array ====================================================
 
+//create--------------- square braket 
 
+let asd = [ 1,2,3,4,5,6,7,8,9,]
+
+//acces------------ by index 0,1,2
+
+console.log(asd[0]);
+
+//Methods
+
+push() //last mai add krta hai 
+pop() // last se remove krta hai 
+shift () // starting se remove krta hai
+unshift() // starting mai add krta hai 
+slice() // (kha se , kitne remove krne hai) impotant---isme duplicate copy pr kaam hota hai
+splice() // (kha se , kha tak) imp -- isme original data pr he kaam hota hai 
 
 
 
