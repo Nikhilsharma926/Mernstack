@@ -2,40 +2,78 @@ body{
     
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: brown;
 }
 
-.navbar{
-    background-color:#251407;
-    height: 99px;
-}
-
-.navbar {
+.container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
-    
-    
+    padding: 20px;
+   
 }
-.navbar a{
-    padding: 0 35px 0px;
-    color: #efeaea;
-    text-decoration: none;
-}
-.navbar a:hover{
-    background-color: #1d459b;  
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+
     
 }
-.logo img{
-    height: 20px;
-    width: 30px;
+
+.navbar ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+.log{
+    color: rgb(244, 242, 242);
+    font-size: 20px;
+}
+
+.info{
+    background-color: brown;
+
+    height: 500px;
+    
+}
+.info ul{
+    height: 400px;
+    width: 250px;
+    background-color: blanchedalmond;
+   border-radius: 50px;
+   margin-left: 50px;
+   
+
+    list-style-type: none;
+}
+
+.info ul li{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+img{
+    height: 310px;
+    width: 250px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    margin-right: 100px;
+     
+}
+
+button{
+    height: 45px;
+    width: 105px;
+    border-radius: 20px;
+    font-size: 15px;
+    
+    background-color: rgb(112, 135, 210);
 
 }
-img{
-    height: 100px;
-    width: 500px;
-    border-radius: none;
-    
+
+button:hover{
+    color: rgb(250, 244, 244);
 }
 
 

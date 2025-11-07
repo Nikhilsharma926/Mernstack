@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    
+}
+.items{
+
+    background-color: blueviolet;
+    border: 2px solid red;
+    
+}
