@@ -87,6 +87,8 @@ unshift() // starting mai add krta hai
 slice() // (kha se , kitne remove krne hai) impotant---isme duplicate copy pr kaam hota hai
 splice() // (kha se , kha tak) imp -- isme original data pr he kaam hota hai 
 
+//use 
+
 
 
 
